@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Happy Kids Toy Store - Form Validation</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fff7e6;
+        }
+
+        header {
+            background-color: #ff6b6b;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 20px;
+        }
+
+        .container {
+            width: 400px;
+            max-width: 85%;
+            margin: 40px auto;
+            padding: 30px;
+            background-color: white;
+            border-radius: 20px;
+            box-shadow: 0 5px 15px #ccc;
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+        h2 {
+            color: #ff6b6b;
+        }
+
+        input {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            box-sizing: border-box;
+        }
+
+        input:focus {
+            border-color: blue;
+            outline: none;
+        }
+
+        .error {
+            color: red;
+            font-size: 13px;
+            display: block;
+            text-align: left;
+        }
+
+        button {
+            background-color: #ff6b6b;
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 10px;
+            cursor: pointer;
+            margin-top: 15px;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #e63946;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>🧸 Happy Kids Online Toy Store 🧸</h1>
+    <p>Fun Toys • Happy Kids • Best Prices</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Toys</a>
+    <a href="#">Offers</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="container">
+
+    <h2>🎁 Customer Sign Up</h2>
+    <p>Create an account to enjoy shopping!</p>
+
+    <form id="signupForm">
+
+        <input type="text" id="name" placeholder="Enter your name">
+        <span class="error" id="nameError"></span>
+
+        <input type="text" id="email" placeholder="Enter your email">
+        <span class="error" id="emailError"></span>
+
+        <input type="password" id="password" placeholder="Enter your password">
+        <span class="error" id="passError"></span>
+
+        <button type="submit">Sign Up</button>
+
+    </form>
+
+</div>
+
+<footer>
+    <p>© 2026 Happy Kids Online Toy Store</p>
+    <p>Made with HTML, CSS and JavaScript ❤️</p>
+</footer>
+
+<script src="ToyValidation.js"></script>
+
+</body>
+</html>
