@@ -1,0 +1,41 @@
+# Experiment 05 – JavaScript Form Validation
+## Happy Kids Online Toy Store 🧸
+
+### Project Description
+The Happy Kids Online Toy Store is a simple website developed using HTML, CSS, and JavaScript. It contains a customer sign-up form where users can enter their name, email address, and password to create an account.
+
+JavaScript is used to validate the entered details before submitting the form. The project uses functions and `if-else` statements to check whether the fields are empty, whether the email address is valid, and whether the password contains at least 8 characters.
+
+### Features
+- Simple and attractive toy store webpage.
+- Customer sign-up form.
+- Name validation.
+- Email format validation.
+- Password length validation (minimum 8 characters).
+- Error messages for invalid inputs.
+- Success alert when all details are valid.
+- Form resets after successful submission.
+
+### Technologies Used
+- HTML – Webpage structure.
+- CSS – Styling and page design.
+- JavaScript – Form validation and error handling.
+
+### How to Run
+1. Download or clone this project.
+2. Open the project folder in Visual Studio Code.
+3. Open `ToyForm.html` in a browser.
+4. Enter your name, email, and password.
+5. Click the **Sign Up** button to test the validation.
+
+### Sample Test Details
+- Name: Ravi Kumar
+- Email: ravi@gmail.com
+- Password: welcome123
+
+### Expected Output
+- Error messages appear when fields are empty or invalid.
+- A success alert appears when all entered details are valid.
+
+### Result
+The Happy Kids Online Toy Store webpage was successfully developed with JavaScript form validation using functions and conditional statements.
